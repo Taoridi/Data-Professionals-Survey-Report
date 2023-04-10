@@ -17,7 +17,7 @@ of this survey can be used by businesses and policymakers to make informed decis
 - COUNT()
 - COUNTROWS()
 - FILTER()
-- AVERAGE
+- AVERAGE()
 
 ## Data Preparation
 The survey data is available for download [here]( https://rb.gy/wn648). The survey questions covered a wide range of topics, including data technologies, tools, platforms,
@@ -28,7 +28,10 @@ The following transformation was done on the data using Power Query Editor
 - I removed columns that were not needed in the analysis
 - For the Job title, Country, Favorite programming language, Ethnicity, New job priority columns, I split them into separate columns using delimiters. This was done to streamline the number of categorical outputs to the barest minimum.
 - I replaced null values in the Happiness ratings columns with 0 for convenience
-- I split the Current Yearly Salary column into two separate columns first, by Digits to Non-digits, then replacing “k and –“ with nothing. Then I changed the datatype of the columns to whole number before taking the average of both columns and finally multiplying by 1000. The following screenshot shows the original salary column and the transformed salary column.
+- I split the Current Yearly Salary column into two separate columns first, by Digits to Non-digits, then replacing “k and –“ with nothing. Then I changed the datatype of the columns to whole number before taking the average of both columns and finally multiplying by 1000. 
+The following screenshot shows the original salary column and the transformed salary column.
+
+![](age_transformed.png)
 
 The transformed dataset contained 630 rows of data and 21 columns. Since the survey contained only one table, there wasn’t any need for data modeling
 After loading into Power BI desktop, I created the followng DAX Measures:
@@ -58,17 +61,23 @@ COUNTROWS (
 
 ## Analysis and Visualization
 
-1. Salary Breakdown
+### 1. Salary Breakdown
+
 
 ![](salary.png)
 
-2. Happiness Ratings
+
+### 2. Happiness Ratings
+
 
 ![](happiness.png)
 
-3. Other Visuals
+
+### 3. Other Visuals
+
 
 ![](other_visuals.png)
+
 
 ## Key Takeaways from the analysis
 
@@ -81,7 +90,7 @@ COUNTROWS (
 7. About 60% of respondents reported to have switched career from a different field into data field
 8. The respondents are ethnically diverse with White or Caucasian and Asian or Asian American being the most ethnicities represented
 
-## Recommendation for Business Leaders
+## Recommendations for Business Leaders
 
 1.	Encourage education and training: As a business leader, you should encourage and support education and training programs for your employees, which will equip them with the skills and knowledge needed to perform effectively in the data field.
 2.	Consider the location of your business: As a business leader, you should consider the location of your business when hiring data professionals or setting salaries. This is particularly relevant if you operate globally, as salaries can vary significantly from one country to another.
@@ -90,8 +99,9 @@ COUNTROWS (
 5.	Look beyond traditional backgrounds: With about 60% of respondents reported switching careers from a different field into the data field, you should consider looking beyond traditional backgrounds and recruiting individuals with transferable skills and a willingness to learn.
 6.	Foster a diverse and inclusive culture: As a business leader, you should foster a diverse and inclusive culture that values and celebrates differences to attract and retain a diverse pool of talent in the data field.
 
+For an interactive view of the report, click [here](https://rb.gy/crbmw).
 
-![](picture1.jpg)
+![](thank_you.jpg)
 
 
 
