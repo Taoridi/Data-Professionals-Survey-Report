@@ -99,7 +99,7 @@ COUNTROWS (
 5.	Look beyond traditional backgrounds: With about 60% of respondents reported switching careers from a different field into the data field, you should consider looking beyond traditional backgrounds and recruiting individuals with transferable skills and a willingness to learn.
 6.	Foster a diverse and inclusive culture: As a business leader, you should foster a diverse and inclusive culture that values and celebrates differences to attract and retain a diverse pool of talent in the data field.
 
-For an interactive view of the report, click [here](https://rb.gy/crbmw).
+For an interactive view of the report, click [here](https://rb.gy/y20l7).
 
 ![](thank_you.jpg)
 
